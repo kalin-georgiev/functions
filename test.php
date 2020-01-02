@@ -1,2 +1,2 @@
 <?php
-echo 'Sucessfully added new GIT file';
+echo 'New git file';
