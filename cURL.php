@@ -36,7 +36,7 @@ $text = disguise_curl($url);
 echo $text;
 
 
-// SAVING IMAGES
+// SAVING REQUESTED IMAGES
 
 $remote_img = 'https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg';
 $img = imagecreatefromjpeg($remote_img);
@@ -60,6 +60,4 @@ function save_image($img,$fullpath){
     fclose($fp);
 }
 
-
 save_image('https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg','image.jpg');
-
