@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$valid_passwords = ["kalin" => "kalin",'niki'=>'niki'];
+$valid_passwords = ["kalin" => "kalin",'admin'=>'admin'];
 $valid_users = array_keys($valid_passwords);
 
 $user = $_SERVER['PHP_AUTH_USER'];
